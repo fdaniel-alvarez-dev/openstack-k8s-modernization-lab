@@ -1,22 +1,32 @@
-MIT License
+Copyright © 2026 Freddy D. Alvarez. All rights reserved.
 
-Copyright (c) 2026 Daniel Alvarez
+Personal, educational, and non-commercial use
+You may use this repository (including its diagrams, code, and documentation) for personal projects,
+learning, teaching, and other non-commercial purposes at no cost.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Commercial use requires a paid license
+Any commercial use requires prior written permission and a paid commercial license. Commercial use
+includes (but is not limited to):
+- Using this repository or substantial parts of it in paid products or services
+- Reselling, sublicensing, or bundling it as part of a commercial offering
+- Using it internally within a company (including proof-of-concepts, prototypes, or production)
+- Using it as part of client work, consulting deliverables, or a paid training program
+- Using it in a SaaS or hosted platform
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Note about GitHub
+Publishing code on GitHub does not grant commercial rights by default. If you want to use this
+repository commercially, you must obtain a commercial license.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Restrictions
+Without a commercial license, you may not copy, modify, distribute, or use this repository for any
+commercial purpose.
 
+Commercial licensing contact
+Freddy D. Alvarez — falvarezpinto@gmail.com
+
+Disclaimer
+This repository is provided "as is", without warranty of any kind, express or implied, including
+but not limited to the warranties of merchantability, fitness for a particular purpose, and
+noninfringement. In no event shall the author be liable for any claim, damages, or other liability,
+whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with
+the repository or the use or other dealings in the repository.

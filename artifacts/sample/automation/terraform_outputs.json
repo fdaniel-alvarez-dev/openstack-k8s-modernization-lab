@@ -1,0 +1,14 @@
+{
+  "provisioning_units": {
+    "value": 12,
+    "type": "number"
+  },
+  "standardized_k8s_baseline": {
+    "value": true,
+    "type": "bool"
+  },
+  "run_mode": {
+    "value": "mock",
+    "type": "string"
+  }
+}

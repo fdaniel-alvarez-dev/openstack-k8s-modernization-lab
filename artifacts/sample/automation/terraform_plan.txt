@@ -1,0 +1,10 @@
+Terraform used the selected providers to generate the following execution plan.
+
+  # null_resource.provision_units will be created
+  + resource "null_resource" "provision_units" {
+      + id = (known after apply)
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Mode: mock

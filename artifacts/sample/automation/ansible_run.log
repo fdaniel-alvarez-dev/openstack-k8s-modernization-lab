@@ -1,0 +1,12 @@
+PLAY [local] *********************************************************************
+TASK [Gathering Facts] ***********************************************************
+ok: [localhost]
+TASK [Render example configs/manifests] ******************************************
+changed: [localhost]
+TASK [Validate conventions] ******************************************************
+ok: [localhost]
+PLAY RECAP ***********************************************************************
+localhost                  : ok=3    changed=1    unreachable=0    failed=0
+NOTE: Mock runner used (ansible-playbook not available or execution not required).
+
+Mode: mock

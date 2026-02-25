@@ -1,0 +1,6 @@
+risk_id,risk,mitigation,priority
+RISK-001,"Harden OpenStack control plane (HA, clustered DB and message bus)",Reduce single points of failure and improve recovery behavior by standardizing HA patterns across controller services.,1
+RISK-002,Shift to automation-first provisioning (Terraform patterns + Ansible enforcement),"Lower error rate and cycle time by making provisioning deterministic, reviewable, and easier to validate.",2
+RISK-003,"Standardize Kubernetes baseline (namespaces, RBAC, policies, and release cadence)",Reduce operational variance and improve day-2 reliability with consistent cluster standards and upgrade practices.,3
+RISK-004,"Operationalize SLOs, runbooks, and change management gates","Sustain reliability gains by turning standards into daily practice (incident response, upgrades, backups, and capacity reviews).",4
+RISK-005,Improve east-west visibility and change safety (baseline telemetry + review workflow),Lower change failure rate by tightening feedback loops and visibility for internal traffic and service dependencies.,5

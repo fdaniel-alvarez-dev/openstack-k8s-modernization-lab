@@ -1,0 +1,10 @@
+{
+  "before": {
+    "uptime_monthly_percent": 98.515,
+    "provisioning_time_minutes_p50": 209.8
+  },
+  "after": {
+    "uptime_monthly_percent": 99.9,
+    "provisioning_time_minutes_p50": 127.9
+  }
+}

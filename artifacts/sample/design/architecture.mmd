@@ -1,0 +1,15 @@
+flowchart TB
+  subgraph Legacy[Legacy OpenStack Environment]
+    CP[Control Plane]\nHA gaps + upgrade risk
+    NW[Network]\nchange failure + low visibility
+    ST[Storage]\nbackup variability
+    WF[Provisioning Workflow]\nmanual touchpoints
+  end
+  subgraph Modern[Modernized Target State]
+    OCP[OpenStack Hardened]\nHA + clustered services
+    K8S[Kubernetes Standard Baseline]\nRBAC + policies + cadence
+    AUT[Automation-First]\nTerraform plan + Ansible enforcement
+    OPS[Operations]\nSLOs + runbooks + change gates
+  end
+  Legacy -->|assessment| AUT
+  AUT --> Modern

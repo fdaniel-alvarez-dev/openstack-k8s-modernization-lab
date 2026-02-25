@@ -1,0 +1,59 @@
+name: "legacy-prod-east"
+region: "us-east"
+compute:
+  hypervisor: "mixed"
+  compute_nodes: 48
+  overcommit_ratio: 4.0
+  patch_cadence_days: 90
+storage:
+  primary_backend: "mixed"
+  replication_enabled: true
+  backup_success_rate_percent: 92.0
+network:
+  segmentation: "mixed"
+  east_west_visibility: "low"
+  change_failure_rate_percent: 18.0
+control_plane:
+  openstack_release: "Train (mixed patchlevel)"
+  ha_enabled: false
+  db_clustered: false
+  message_bus_clustered: true
+  upgrade_strategy: "in_place"
+tenancy:
+  tenants: 36
+  self_service_portal: false
+  rbac_maturity: "ad_hoc"
+deployments_per_week: 14
+infra_changes_per_week: 22
+config_drift_rate_percent: 17.5
+incidents_last_90d:
+  - occurred_on: 2025-11-21
+    severity: "sev2"
+    minutes_to_restore: 140
+    primary_cause: "controller failover instability during maintenance"
+  - occurred_on: 2025-12-08
+    severity: "sev1"
+    minutes_to_restore: 320
+    primary_cause: "DB saturation and manual recovery steps"
+  - occurred_on: 2026-01-19
+    severity: "sev2"
+    minutes_to_restore: 95
+    primary_cause: "network change introduced cross-tenant latency"
+provisioning_workflow:
+  - name: "Request intake + manual approvals"
+    minutes_p50: 20
+    manual_touchpoints: 3
+    error_rate_percent: 2.0
+  - name: "Network + security group setup"
+    minutes_p50: 30
+    manual_touchpoints: 2
+    error_rate_percent: 4.0
+  - name: "Instance build + image selection"
+    minutes_p50: 25
+    manual_touchpoints: 2
+    error_rate_percent: 3.0
+  - name: "Post-provision configuration"
+    minutes_p50: 35
+    manual_touchpoints: 4
+    error_rate_percent: 6.0
+
